@@ -12,4 +12,5 @@ Audience breakdown:
 
 | Audience | Needs | How to fulfil them |
 | -------- | ----- | ------------------ |
-| Companies | Want to know if Rockstar has the talents and skills to create a great product | 
+| Companies | Understand if they are reliable or skilled enough to cooperate and work with easily | Know their reputation with other companies they have worked with, the skills and talents they have through awards and acclaims |
+| 
