@@ -6,11 +6,15 @@ website to advertise the games this company has made and what makes them unique 
 ## Design Process
 
 Purpose of the website: Advertise and explain the company's products and reputation
+
 Audience: Companies who want to work with Rockstar, Customers who are intrested in Rockstar's games, Investors who want to invest in Rockstar.
 
 Audience breakdown:
 
 | Audience | Needs | How to fulfil them |
 | -------- | ----- | ------------------ |
-| Companies | Understand if they are reliable or skilled enough to cooperate and work with easily | Know their reputation with other companies they have worked with, the skills and talents they have through awards and acclaims |
-| 
+| Companies | Understand if they are reliable or skilled enough to cooperate and work with easily | Make a portion of the main page allocated to collaborators' testimonials, awards and acclaims |
+
+| Investors | Understand if Rockstar is able to utilise the investment money properly to create a great product | Include awards and acclaims for each game. |
+
+| Customers | Want to know if Rockstar's games are entertaining and fun to be worth the buy. They may also want to know if there are games currently with promotions or sales | Include awards and acclaims for each game made. Make a portion or another page for promotions and sales currently going on |
