@@ -29,6 +29,9 @@ Features to add:
 Refrences
 
 https://www.wallpaperflare.com/4k-screenshot-red-dead-redemption-2-wallpaper-bilid
+
 https://www.cleanpng.com/png-red-dead-redemption-2-red-dead-redemption-undead-n-2512209/
+
 https://www.nicepng.com/ourpic/u2r5y3r5q8a9e6y3_gta-5-michael-png/
-https://www.rockstargames.com/games/reddeadredemption2
+
+https://www.rockstargames.com
