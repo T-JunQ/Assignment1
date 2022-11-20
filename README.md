@@ -41,3 +41,5 @@ https://www.betterteam.com/video-game-developer-job-description
 https://www.betterteam.com/game-designer-job-description#:~:text=Game%20designers%20create%20the%20rules,early%20versions%20of%20the%20games.
 
 https://www.screenskills.com/job-profiles/browse/games/programming/engine-programmer/
+
+https://xd.adobe.com/view/08f9ff88-e145-4226-88b5-ba8234d52fdb-5daa/
