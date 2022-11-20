@@ -37,3 +37,7 @@ https://www.nicepng.com/ourpic/u2r5y3r5q8a9e6y3_gta-5-michael-png/
 https://www.rockstargames.com
 
 https://www.betterteam.com/video-game-developer-job-description
+
+https://www.betterteam.com/game-designer-job-description#:~:text=Game%20designers%20create%20the%20rules,early%20versions%20of%20the%20games.
+
+https://www.screenskills.com/job-profiles/browse/games/programming/engine-programmer/
