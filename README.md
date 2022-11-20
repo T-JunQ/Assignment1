@@ -30,3 +30,4 @@ Features to add:
 - Awards and acclaims from each game
 - Promotions and sales
 - Contact information
+  s
