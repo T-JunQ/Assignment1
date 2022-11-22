@@ -3,11 +3,6 @@
 Rockstar games is a game studio based in the US and has created many critically acclaimed games. Therefore, i am going to make a
 website to advertise the games the company has made and the company itself. The website is also going to explain what the company does and their prestige reputation through the display of awards, testimonials and acclaims. It is also going to include diffrent promotions and sales for the products.
 
-# Rockstar games website
-
-Rockstar games is a game studio based in the US and has created many critically acclaimed games. Therefore, i am going to make a
-website to advertise the games the company has made and the company itself. The website is also going to explain what the company does and their prestige reputation through the display of awards, testimonials and acclaims. It is also going to include diffrent promotions and sales for the products.
-
 ## Design Process
 
 Purpose of the website: Explain what the company does and it's reputation, Advertise it's brand and games to visitors
