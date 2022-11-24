@@ -1,14 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: #262424;
-    overflow: hidden;
+    background-image: url("pics/4k-screenshot-red-dead-redemption-2-wallpaper-preview.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
 }
 
 nav{
     height: 50px;
-    width: 1532px;
-    border:#FFC300 solid 2px;
+    width: 100%;
+    border:#FFA500 solid 2px;
     position: fixed;
     background-color: #262424;
+    top:0px;
+    z-index: 1;
 }
 
 #nav_homepage{
@@ -23,10 +34,10 @@ nav{
     float: right;
     display:flex;
     background-color: #262424;
-    justify-content: space-between;
     gap: 20px;
     padding-right: 10px;
     padding-top: 25px;
+
 }
 
 .nav_text > a {
@@ -36,34 +47,131 @@ nav{
     font-weight:500;
 }
 
+
 .homepage{
-    background-image: url("pics/4k-screenshot-red-dead-redemption-2-wallpaper-preview.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    min-height: 1080px;
+    min-height: 450px;
+    width: 100%;
+    z-index: 2;
 }
 
-.homepage > h1{
+.homepage  h1{
     -webkit-text-stroke: 2px black;
     color:aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
     font-size: 50px;
-    position: absolute;
-    text-align: center;
-    margin-top: 150px;
-    margin-left: 536px;
-}
+    margin:auto;
+    margin-top:10%;
+    line-height: 1.2;
+} 
 
 .home_logo{
     width:126px; height:119px;
-    margin-top: 270px;
-    margin-left: 730px;
+    display:block;
+    margin:auto;
 }
 
 #scrolling{
-    background-color: #262424;
+    background: #262424;
+    height: 100px;
+    color:aliceblue;
+    width:100%;
+    text-align: center;
+    font-size: larger;
+    padding-top: 0.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top:#FFA500 solid 2px;
 }
+
+
+.section_bg {
+    background: #262424;
+    height: 1080px;
+    position: relative;
+}
+
+hr{
+    border:0;
+    border-top:#707070 solid 2px;
+}
+
+.content{
+    margin-top:10%;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Tw Cen MT Std', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+h2{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #FFA500;
+    font-weight: 700;
+}
+
+strong{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFA500;
+}
+
+/* about section */
+
+#about h2{
+    color: aliceblue;
+}
+
+.about_logo{
+    width:50px; 
+    height:50px;
+}
+
+.about_text{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: -3%;
+}
+
+.about_text > p {
+    font-size: 25px;
+    align-self: center;
+}
+
+.side_imgsl{
+    width: 300px;height: 500px;
+    top:0px; 
+    align-self: flex-start;
+    margin: auto;
+}
+
+.side_imgsr{
+    width: 300px;height: 500px;
+    align-self: flex-end;
+    margin: auto;
+}
+
+/* games section */
+
+.games_content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.games_content div{
+    border:aliceblue solid 2px;
+    border-radius: 25px;
+    padding:20px;
+    width: 400px;height:500px;
+}
+
+
+
+
+
+
 
 
 
