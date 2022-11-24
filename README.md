@@ -48,3 +48,9 @@ https://www.betterteam.com/game-designer-job-description#:~:text=Game%20designer
 https://www.screenskills.com/job-profiles/browse/games/programming/engine-programmer/
 
 https://xd.adobe.com/view/08f9ff88-e145-4226-88b5-ba8234d52fdb-5daa/
+
+https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/
+
+https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/
+
+https://store.steampowered.com/app/110800/LA_Noire/
