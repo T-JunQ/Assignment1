@@ -2,6 +2,18 @@ html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width:5px;
+}
+
+::-webkit-scrollbar-track{
+    background: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+    border-radius: 30px;
+}
 
 body {
     background-color: #262424;
@@ -10,11 +22,12 @@ body {
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
+    overflow: overlay;
 }
 
 nav{
     height: 50px;
-    width: 100%;
+    width: 99.8%;
     border:#FFA500 solid 2px;
     position: fixed;
     background-color: #262424;
@@ -46,6 +59,9 @@ nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:500;
 }
+
+/* home page */
+
 
 
 .homepage{
@@ -96,7 +112,7 @@ hr{
 }
 
 .content{
-    margin-top:10%;
+    margin-top:5%;
     text-align: center;
     color: aliceblue;
     font-family: 'Tw Cen MT Std', sans-serif;
@@ -162,11 +178,29 @@ strong{
 
 .games_content div{
     border:aliceblue solid 2px;
-    border-radius: 25px;
-    padding:20px;
-    width: 400px;height:500px;
+    border-radius: 30px;
+    padding:15px;
+    padding-bottom: 60px;
+    width: 420px;height:600px;
 }
 
+.games_img{
+    width:400px; height:500px;
+    border-radius: 30px;
+    object-fit: fill;
+}
+
+#rdr2 img{
+    border: red 3px solid;
+}
+
+#gtav img{
+    border: #00B2FF 3px solid;
+}
+
+#lanoire img{
+    border: whitesmoke 3px solid;
+}
 
 
 
