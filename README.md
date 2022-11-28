@@ -13,9 +13,9 @@ Audience breakdown:
 
 | Audience    | Needs                                                                                                                                                           | How to fulfil them                                                                                                                                             |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Companies   | Understand if they are reliable or skilled enough to cooperate and work with easily                                                                             | Make a portion of the main page allocated to collaborators' testimonials, awards and acclaims, Include contact details either at the footer or a seperate page |
-| Job-Seekers | Want to know What job positions are available and How to apply for them                                                                                         | Make a section for current job positions available and a request or enquery form to contact Rockstar                                                           |
-| Customers   | Want to know if Rockstar's games are entertaining and fun to be worth the buy. They may also want to know if there are games currently with promotions or sales | Include awards and acclaims for each game made. Make a portion or another page for promotions and sales currently going on                                     |
+| Companies   | Understand if they are reliable or skilled enough to cooperate and work with easily so that they can partner up for projects                                                                          | Make a portion of the main page allocated to collaborators' testimonials, awards and acclaims, Include contact details either at the footer or a seperate page |
+| Job-Seekers | Want to know What job positions are available and How to apply for them so that they can start a new career path                                                                                     | Make a section for current job positions available and a request or enquery form to contact Rockstar                                                           |
+| Customers   | Want to know if Rockstar's games are entertaining and fun to be worth the buy. They may also want to know if there are games currently with promotions or sales to save money on games| Include awards and acclaims for each game made. Make a portion or another page for promotions and sales currently going on                                     |
 
 Features to add:
 
@@ -29,7 +29,17 @@ Features to add:
 
 Wireframe:
 
+https://xd.adobe.com/view/4e991668-e5c5-4051-a0ff-d39d91d4630c-1bca/
+
+MockUp:
+
 https://xd.adobe.com/view/08f9ff88-e145-4226-88b5-ba8234d52fdb-5daa/
+
+## Features
+
+Feature list:
+
+| Feature | 
 
 ## Refrences
 
