@@ -57,7 +57,7 @@ strong{
 /* nav bar */
 
 nav{
-    height: 50px;
+    height: 7%;
     width: 99.8%;
     border:#FFA500 solid 2px;
     position: fixed;
@@ -95,9 +95,34 @@ a{
     transition-timing-function: ease-in;
 }
 
+@media (max-width:760px) {
+    .nav_text a{
+        display: none;
+    }
+
+    nav{
+        width: 99%;
+    }
+
+    p{
+        font-size: smaller;
+    }
+
+    img{
+        width:-20% !important;
+    }
+    
+}
+
+
+
 a:hover{
     color:#FFA500;
-    transform: scale(1.05);
+    transform: scale(1.02);
+}
+
+a:active{
+    filter: invert(100%);
 }
 
 a>img{
@@ -110,6 +135,12 @@ a:hover > img{
     transform:scale(1.02)
 }
 
+.section_bg {
+    background: #262424;
+    min-height: 1080px;
+    position: relative;
+    border-bottom: #707070 solid 2px;
+}
 
 /* home page */
 
@@ -119,8 +150,10 @@ a:hover > img{
 
 
 @keyframes reveal {
-    from {opacity:0}
-    to {opacity:1}
+    0% {transform: translateY(100px);
+        opacity:0}
+    100% {transform: translateY(0px);
+        opacity:1}
 }
 
 #homepage{
@@ -157,13 +190,16 @@ a:hover > img{
     border-top:#FFA500 solid 2px;
 }
 
-
-.section_bg {
-    background: #262424;
-    min-height: 1080px;
-    position: relative;
-    border-bottom: #707070 solid 2px;
+@keyframes scroll{
+    0%{transform: translateY(-20px);}
+    50%{transform: translateY(0px);}
+    100%{transform: translateY(-20px);}
 }
+
+#arrows{
+    animation: scroll 2s infinite;
+}
+
 
 
 /* about section */
@@ -318,6 +354,13 @@ a:hover > img{
     background: #143F2C;
 }
 
+h4{
+    font-size: xx-large;
+    font-family: 'Tw Cen MT Std', sans-serif;
+    -webkit-text-stroke: black 1.5px;
+    color: yellow;
+}
+
 /* awards section */
 
 #awards{
@@ -431,7 +474,9 @@ ul{
 
 
 /* contact section */
-
+#contract{
+    height: 600px;
+}
 
 .contact_form{
     width:70%;
@@ -449,7 +494,7 @@ input::placeholder{
 }
 
 select{
-    width:71% !important;
+    width: 71% !important;
     padding-left: 2px;
 }
 
@@ -464,5 +509,54 @@ select{
 }
 
 button{
-    width:10% !important;
+    width:90px !important;
+    background-color: #FFA500;
+    font-weight: 700;
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+    text-align: center;
 }
+
+button:hover{
+    filter:brightness(130%) saturate(130%);
+    transform:scale(1.02)
+}
+
+button:active{
+    filter: invert(70%);
+}
+
+/* footer */
+
+footer p{
+    color: white;
+    line-height: 25px;
+    margin-left: 1%;
+    margin-top: -0.5%;
+}
+
+footer{
+    background-color: #262424;
+    height: 70px;
+    position: relative;
+}
+
+#footer_links{
+    right: 2%;
+    position: absolute;
+    bottom: 20%;
+}
+
+.fa-brands{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
