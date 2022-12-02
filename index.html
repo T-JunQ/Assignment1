@@ -8,19 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.cdnfonts.com/css/tw-cen-mt" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/tw-cen-mt-std" rel="stylesheet">
-                
 </head>
 <body>
     
     <nav>
-        <a href="#home"><img id="nav_homepage" src="pics/58482ffecef1014c0b5e4a8f.png"></a>
+        <a href="" onclick="scroll"><img id="nav_homepage" src="pics/58482ffecef1014c0b5e4a8f.png"></a>
         <div class="nav_text">
             <a href="#about">Who we are</a>
             <a href="#games">Our Games</a>
             <a href="#promos">Promotions & Sales</a>
             <a href="#awards">Awards & Acclaims</a>
-            <a href="">Careers</a>
-            <a href="">Contact Us</a>
+            <a href="#jobs">Careers</a>
+            <a href="#contact">Contact Us</a>
         </div>
     </nav>
     
@@ -98,6 +97,7 @@
             <h2>Promotions & Sales</h2>
             <div id="promos_content">
                 <h3>❄️<strong>Winter Sale! Up to 70% off!</strong>❄️<br>25th December - 2nd January</h3>
+
                 <br><br>
                 <div id="promos_games">
                     <div class="rdr2">
@@ -170,10 +170,26 @@
             <div id="jobs_content">
                 <div class="job_box">
                     <img class="jobs_img" src="pics/pexels-lukas-574071.jpg" alt="programmer">
-                    <h3>Games Programmer</h3>
+                    <h3>Games <br>Developer</h3>
+                    <p>Video game developers, also known as game developers, are responsible for designing and developing video games for PC, console, and mobile applications. Their job is to code the base engine from the ideas of the design team. They may also be involved in character design, level design, animation, and unit testing.
+                    </p>
                 </div>
-                <div class="job_box"></div>
-                <div class="job_box"></div>
+                <div class="job_box">
+                    <img class="jobs_img" src="pics/convertkit-L58uwc_d9zY-unsplash.jpg" alt="artist">
+                    <h3>Graphics Artist/ Designers</h3>
+                    <p>Game designers create the rules, characters, settings, stories, and props for new games, and use computer 
+                        programming languages to write the required code. They may also manage project teams and test early versions 
+                        of the games.</p>
+                </div>
+                <div class="job_box">
+                    <img class="jobs_img" src="pics/microsoft-365-oUbzU87d1Gc-unsplash.jpg" alt="engine">
+                    <h3>Game Engine Programmer</h3>
+                    <p>Engine programmers develop the game engine from which the game runs. They create new functionality in the engine
+                        and rewrite the existing systems to make them as efficient as possible. When a new game is being devised, the 
+                        engine programmer will figure out how to create the best engine for that particular game. They also fix bugs and 
+                        deal with any technical glitches along the way.</p>
+                </div>
+                <strong style="font-size:x-large; font-weight: 700;"><br>Contact Us If You Are Intrested</strong>
             </div>
         </content>
     </section>
@@ -184,7 +200,18 @@
             <h2>Contact Us</h2>
             <div id="contact_content">
                 <form>
-
+                    <input type="text" id="email" class="contact_form" name="email" placeholder="Your Email johndoe@email.com" required><br>
+                    <select name="enq_type" id="enq_type" class="contact_form" required><br>
+                        <option value="" disabled selected>Select Your Enquiry Type</option>
+                        <option value="career" class="select_color">Careers enquiry</option>
+                        <option value="tech" class="select_color">Technical issues</option>
+                        <option value="warrenty" class="select_color">Product warrenty</option>
+                        <option value="refund" class="select_color">Refund product</option>
+                        <option value="others" class="select_color">Others</option>
+                    </select>
+                    <input type="text" id="entry_title" class="contact_form" name="entry_title" placeholder="Your Enquiry Title" required><br>
+                    <input type="text" rows="10" cols="40" id="entry_desc" name="entry_desc" placeholder="Descripton of Enquiry" class="contact_form"><br>
+                    <button type="submit" class="contact_form">Submit</button>
                 </form>
             </div>
         </content>

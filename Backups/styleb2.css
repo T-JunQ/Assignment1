@@ -63,7 +63,7 @@ nav{
     position: fixed;
     background-color: #262424;
     top:0px;
-    z-index: 10;
+    z-index: 1;
 }
 
 #nav_homepage{
@@ -401,7 +401,6 @@ ul{
     margin:0.8%;
     filter: blur(2px);
     position:absolute;
-    left:0;
     z-index: 0;
 }
 
@@ -428,41 +427,33 @@ ul{
     line-height: 30px;
 }
 
+#programmer{
+    background-image: url(pics/pexels-lukas-574071.jpg);
+}
 
+#artist{
+    background-image: url(pics/convertkit-L58uwc_d9zY-unsplash.jpg);
+}
+
+#engine{
+    background-image: url(pics/microsoft-365-oUbzU87d1Gc-unsplash.jpg);
+}
 
 /* contact section */
 
 
-.contact_form{
-    width:70%;
-    margin-bottom: 1%;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    border-radius: 30px;
-    border: #707070 solid 2px;
-    font-family: 'Tw Cen MT Std', sans-serif;
-    padding-top: 2px;
-}
 
-input::placeholder{
-    color: #707070;
-}
 
-select{
-    width:71% !important;
-    padding-left: 2px;
-}
 
-.select_color{
-    color: #262424;
-}
 
-#entry_desc{
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 300px;
-}
 
-button{
-    width:10% !important;
-}
+
+
+
+
+
+
+
+
+
+
