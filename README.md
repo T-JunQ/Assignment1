@@ -78,3 +78,5 @@ https://unsplash.com/photos/oUbzU87d1Gc
 https://unsplash.com/photos/L58uwc_d9zY
 
 https://www.pexels.com/photo/person-encoding-in-laptop-574071/
+
+https://fontawesome.com/start
