@@ -1,8 +1,5 @@
 let enddate = new Date("Jan 5, 2023 00:00:00").getTime();
 
-
-
-
 let timer = setInterval(function(){
     var now = new Date().getTime()
 
@@ -24,11 +21,19 @@ function scroll(){
     document.documentElement.scrolltop = 0
 }
 
+function menubutton(){
+    let menu = document.getElementById("menu");
+    
+    if (menu.style.display === "none"){
+        menu.style.display = "block"
+    }
 
-
-
+    else{
+        menu.style.display = "none"
+    }
+}
 
 function formSubmit(){
-    
+    // implement this
 }
 

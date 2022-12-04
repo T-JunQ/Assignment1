@@ -57,7 +57,7 @@ strong{
 /* nav bar */
 
 nav{
-    height: 7%;
+    height: 50px;
     width: 99.8%;
     border:#FFA500 solid 2px;
     position: fixed;
@@ -102,19 +102,48 @@ a{
 
     nav{
         width: 99%;
+    } 
+
+    #mobile_menu{
+        display: block;
     }
 
-    p{
-        font-size: smaller;
-    }
 
-    img{
-        width:-20% !important;
+}
+
+@media (min-width:760px) {
+    #mobile_menu{
+        display: none;
     }
-    
+}
+
+#mobile_menu{
+    font-size: 35px;
+    margin-top: -20px !important;
+    color:aliceblue;
+    -webkit-text-stroke: black;
+}
+
+#menu{
+    position: fixed;
+    background-color: #262424;
+    width: 100%;
+    z-index: 1;
+    margin-top: 15px;
+    display: none;
 }
 
 
+#menu a{
+    padding: 5% 5% 5% 5%;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-decoration: solid;
+    color:aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+}
 
 a:hover{
     color:#FFA500;
@@ -141,6 +170,36 @@ a:hover > img{
     position: relative;
     border-bottom: #707070 solid 2px;
 }
+
+@media (max-width:720px) {
+    .games_img{
+        width: -60%;
+        height: -50%;
+    }
+
+    .mobile_rmv{
+        display: none;
+    }
+
+    .about_text p {
+        margin:5%;
+    }
+}
+
+
+
+@media (max-width:1520px){
+    .job_box p{
+        padding-left: 7%;
+    }
+}
+
+@media (max-width:1024px) {
+    .job_box p{
+        padding-left: 15%;
+    }
+}
+
 
 /* home page */
 
@@ -200,7 +259,9 @@ a:hover > img{
     animation: scroll 2s infinite;
 }
 
-
+@media (max-width:430px) {
+    
+}
 
 /* about section */
 
@@ -238,14 +299,6 @@ a:hover > img{
     margin: auto;
 }
 
-@media (max-width:720px) {
-    img#side_imgsl {
-        display: none;
-    }
-    img#side_imgsr {
-        display: none;
-    }
-}
 
 /* games section */
 
@@ -290,10 +343,9 @@ a:hover > img{
         height: 70%;
     }
 
-    p br{
-        display: none;
-    }
 }
+
+
 
 /* promos section */
 
@@ -462,8 +514,8 @@ ul{
 }
 
 .job_box p{
-    padding-left: 24%;
-    padding-right: 1%;
+    margin-left: 24%;
+    margin-right: 1%;
     text-align: left;
     font-family: 'Tw Cen MT Std', sans-serif;
     font-weight: 700;
@@ -471,7 +523,11 @@ ul{
     line-height: 30px;
 }
 
-
+@media (max-width:1024px) {
+    .job_box p{
+        padding-left: 15%;
+    }
+}
 
 /* contact section */
 #contract{
