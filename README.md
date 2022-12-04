@@ -50,6 +50,37 @@ Feature list:
 - Font Awesome by Fonticons.Inc
   - Provides a a large library of icons to be used in css and html. Used for brand and normal icons.
 
+## Testing
+
+1. Navigation bar
+  1. Click on Logo to go to homepage
+  2. Click on respective names of the sections to get sent to the sections
+ 
+2. Homepage animation
+  1. Load or reload page and the text on homepage would appear
+  2. Arrows under the scroll down text is moving up and down
+
+3. Image Hyperlinks
+  1. Clicking on the games' images sends to the store page of the game in steam
+  2. On hover image grows in scale and becomes more saturated
+ 
+4. Timer
+  1. Shows time counting down to the date
+  - Note: Code is not implemented for the timer when the time passes over the date
+
+5. Form 
+  1. Fill in form
+  2. Upon submission of the form, user is prompted whether to confirm. Clicking on OK would submit the form while Cancel does not.
+  3. When submitted, a alert would say that Enquiry is submitted and the date,email of the enquiry
+  4. Under the form, the previous entry is shown.
+  - Note: Description is not shown
+  
+6. Mobile View
+  1. Code is best supported for Iphone SE and similar widths
+  2. A drop down menu replaces the normal navigation bar
+  3. Clicking on hamburger icon pulls and retracts menu
+  - Note: Visual glitches happen when width <340px
+
 ## Refrences
 
 ### Content
@@ -96,5 +127,5 @@ Library from https://fontawesome.com/start
 
 Color palette and design inspired from https://www.rockstargames.com
 
-
+CSS and HTML Code advice and refrences from https://www.w3schools.com/
 
