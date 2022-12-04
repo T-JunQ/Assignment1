@@ -39,7 +39,16 @@ https://xd.adobe.com/view/08f9ff88-e145-4226-88b5-ba8234d52fdb-5daa/
 
 Feature list:
 
-| Feature | 
+-**A Navigation bar** to allow easier navigation throughout the site
+-**Hyperlink images to store page** to navigate users to the store for each product
+-**Countdown timer to the end of sale** to give users a timeframe of when the sale would end
+-**An enquiry form** to allow users to fill in and submit problems or job enquires to the company
+-**A section to view previous enquires** to help users refer to previous enqueries they made. Description will not show as it is redundant to the user.
+
+##Technologies used
+
+-Font Awesome by Fonticons.Inc
+  -Provides a a large library of icons to be used in css and html. Used for brand and normal icons.
 
 ## Refrences
 
