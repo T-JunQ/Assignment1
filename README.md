@@ -45,20 +45,22 @@ Feature list:
 - **An enquiry form** to allow users to fill in and submit problems or job enquires to the company
 - **A section to view previous enquires** to help users refer to previous enqueries they made. Description will not show as it is redundant to the user.
 
-##Technologies used
+## Technologies used
 
 - Font Awesome by Fonticons.Inc
   - Provides a a large library of icons to be used in css and html. Used for brand and normal icons.
 
 ## Refrences
 
-https://www.wallpaperflare.com/4k-screenshot-red-dead-redemption-2-wallpaper-bilid
-
-https://www.cleanpng.com/png-red-dead-redemption-2-red-dead-redemption-undead-n-2512209/
-
-https://www.nicepng.com/ourpic/u2r5y3r5q8a9e6y3_gta-5-michael-png/
+### Content
 
 https://www.rockstargames.com
+
+https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/
+
+https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/
+
+https://store.steampowered.com/app/110800/LA_Noire/
 
 https://www.betterteam.com/video-game-developer-job-description
 
@@ -66,13 +68,13 @@ https://www.betterteam.com/game-designer-job-description#:~:text=Game%20designer
 
 https://www.screenskills.com/job-profiles/browse/games/programming/engine-programmer/
 
-https://xd.adobe.com/view/08f9ff88-e145-4226-88b5-ba8234d52fdb-5daa/
+### Media
 
-https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/
+https://www.wallpaperflare.com/4k-screenshot-red-dead-redemption-2-wallpaper-bilid
 
-https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/
+https://www.cleanpng.com/png-red-dead-redemption-2-red-dead-redemption-undead-n-2512209/
 
-https://store.steampowered.com/app/110800/LA_Noire/
+https://www.nicepng.com/ourpic/u2r5y3r5q8a9e6y3_gta-5-michael-png/
 
 https://www.pngitem.com/middle/wwhoi_transparent-background-award-icon-hd-png-download/
 
@@ -88,4 +90,11 @@ https://unsplash.com/photos/L58uwc_d9zY
 
 https://www.pexels.com/photo/person-encoding-in-laptop-574071/
 
-https://fontawesome.com/start
+### Aknowledgement
+
+Library from https://fontawesome.com/start
+
+Color palette and design inspired from https://www.rockstargames.com
+
+
+
