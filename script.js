@@ -18,7 +18,6 @@ let timer = setInterval(function(){
 
 function scroll(){
     document.body.scrolltop = 0
-    document.documentElement.scrolltop = 0
 }
 
 function menubutton(){
@@ -33,7 +32,38 @@ function menubutton(){
     }
 }
 
+let form = document.getElementById("newform")
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault()
+    let boon = confirm("Are you sure?")
+
+    if (boon == true)
+    {
+        formSubmit()
+    }
+
+    else
+    {
+        event.preventDefault()
+    }
+})
+
 function formSubmit(){
-    // implement this
+    let date = new Date()
+    let datestring = date.toDateString()
+
+    localStorage.setItem("Date",datestring)
+    localStorage.setItem("Email",form.elements[0].value)
+    localStorage.setItem("Type",form.elements[1].value)
+    localStorage.setItem("Title",form.elements[2].value)
+
+    alert(`Enquiry Submitted\nTime of Submission: ${datestring}\n Email: ${localStorage.getItem("Email")}`)
+    form.submit()
 }
 
+let preventry = document.getElementById("form_values")
+
+preventry.innerHTML = `Previous Entry:<br><br>Date: <br> ${localStorage.getItem("Date")}<br><br>Email: <br>${localStorage.getItem("Email")}<br>
+<br>Enquiry type: <br>${localStorage.getItem("Type")}<br><br>Title: <br>${localStorage.getItem("Title")}
+<br><br>Description will not be shown`

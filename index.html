@@ -77,11 +77,11 @@
             <div class="games_content">
                 <div class="rdr2">
                     <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank"><img class="games_img" src="pics/reddeadredemption2.png" alt="rdr2"></a><br>
-                    <p>Winner of over 175 Game of the Year Awards and <br>
-                        recipient of over 250 perfect scores, RDR2 is the epic tale <br>
-                        of outlaw Arthur Morgan and the infamous Van der Linde <br>
-                        gang, on the run across America at the dawn of the modern <br>
-                        age. Also includes access to the shared living world <br>
+                    <p>Winner of over 175 Game of the Year Awards and <br class="moblie_rmv">
+                        recipient of over 250 perfect scores, RDR2 is the epic tale <br class="moblie_rmv">
+                        of outlaw Arthur Morgan and the infamous Van der Linde <br class="moblie_rmv">
+                        gang, on the run across America at the dawn of the modern <br class="moblie_rmv">
+                        age. Also includes access to the shared living world <br class="moblie_rmv">
                         of Red Dead Online.</p>
                 </div>
                 <div class="gtav">
@@ -152,7 +152,7 @@
                     </ul>
                 </div>
                 <div class="rdr2">
-                    <h3>Red Dead Redemption 2</h3>
+                    <h3>Red Dead <br>Redemption 2</h3>
                     <ul>
                         <li>GDCA 2019 Best Technology</li>
                         <li>GDCA 2019 GOTY Nominee</li>
@@ -211,20 +211,27 @@
         <content>
             <h2>Contact Us</h2>
             <div id="contact_content">
-                <form name="newform">
+                <form id="newform">
                     <input type="email" id="email" class="contact_form" name="email" placeholder="Your Email johndoe@email.com" required><br>
                     <select name="enq_type" id="enq_type" class="contact_form" required><br>
                         <option value="" disabled selected>Select Your Enquiry Type</option>
-                        <option value="career" class="select_color">Careers enquiry</option>
-                        <option value="tech" class="select_color">Technical issues</option>
-                        <option value="warrenty" class="select_color">Product warrenty</option>
-                        <option value="refund" class="select_color">Refund product</option>
-                        <option value="others" class="select_color">Others</option>
+                        <option value="Careers enquiry" class="select_color">Careers enquiry</option>
+                        <option value="Technical issues" class="select_color">Technical issues</option>
+                        <option value="Product warrenty" class="select_color">Product warrenty</option>
+                        <option value="Refund product" class="select_color">Refund product</option>
+                        <option value="Others" class="select_color">Others</option>
                     </select>
                     <input type="text" id="entry_title" class="contact_form" name="entry_title" placeholder="Your Enquiry Title" required autocomplete="off"><br>
-                    <input type="text" rows="10" cols="40" id="entry_desc" name="entry_desc" placeholder="Descripton of Enquiry" class="contact_form" required autocomplete="off"><br>
-                    <button type="submit" class="contact_form" onsubmit="formSubmit()">Submit</button>
+                    <input type="text" id="entry_desc" name="entry_desc" placeholder="Descripton of Enquiry" class="contact_form" required autocomplete="off"><br>
+                    <button type="submit" class="contact_form">Submit</button>
                 </form>
+                <p id="form_values">
+                    Previous Entry:<br><br>
+                    Email: Nil<br><br>
+                    Enquiry type: Nil<br><br>
+                    Title: Nil<br><br>
+                    Description: Nil<br><br>
+                </p>
             </div>
         </content>
     </section>
@@ -238,7 +245,6 @@
             <a href="https://twitter.com/rockstargames" target="_blank" class="fa-brands fa-twitter"></a>
         </div>
     </footer>
-
     <script src="script.js" defer></script>
 </body>
 </html>
